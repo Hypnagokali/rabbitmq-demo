@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/analysis-api" />
             <option value="$PROJECT_DIR$/analysis-service" />
             <option value="$PROJECT_DIR$/masterdata-service" />
             <option value="$PROJECT_DIR$/portal-env" />
