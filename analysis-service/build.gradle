@@ -26,7 +26,8 @@ repositories {
 dependencies {
     implementation project( ":analysis-api" )
 
-    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation group: 'org.springframework.amqp', name: 'spring-rabbit', version: '3.1.7'
+    implementation group: 'org.springframework.amqp', name: 'spring-rabbit-stream', version: '3.1.7'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter'
     compileOnly 'org.projectlombok:lombok'
